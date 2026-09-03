@@ -2,7 +2,7 @@
 export const SITE = {
   name: "D'PRAXE BARBEARIA",
   phoneDisplay: "(11) 99941-9768",
-  whatsappBase: "https://api.whatsapp.com/send?phone=5511994179768",
+  whatsappBase: "https://wa.me/5511994179768",
   whatsappMessage: "Olá! Gostaria de agendar um horário na D'PRAXE BARBEARIA.",
   instagramHandle: "@dpraxebarbaria",
   instagramUrl: "https://instagram.com/dpraxebarbaria",
