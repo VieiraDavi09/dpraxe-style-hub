@@ -21,7 +21,7 @@ export function whatsappLink(service?: string) {
   const text = service
     ? `Olá! Gostaria de agendar um horário na D'PRAXE BARBEARIA. Serviço: ${service}.`
     : SITE.whatsappMessage;
-  return `${SITE.whatsappBase}&text=${encodeURIComponent(text)}`;
+  return `${SITE.whatsappBase}?text=${encodeURIComponent(text)}`;
 }
 
 // Preços configuráveis: preencha o campo `price` quando os valores forem definidos.
